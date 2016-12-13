@@ -1,0 +1,22 @@
+{
+  "name": "wikipedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/groundcontrolplugins/wikipedia.git"
+  },
+  "author": "Ian Renyard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/groundcontrolplugins/wikipedia/issues"
+  },
+  "homepage": "https://github.com/groundcontrolplugins/wikipedia#readme",
+  "dependencies": {
+    "request": "^2.79.0"
+  }
+}
