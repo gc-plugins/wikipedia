@@ -9,7 +9,7 @@ exports.init = (config) => {};
 
 exports.setConfig = () => {};
 
-exports.process = (term, stream) => {
+exports.process = ({keyword, term, stream}) => {
     // Abort previous requests.
     while (requests.length) {
         requests.pop().abort();
@@ -57,7 +57,7 @@ exports.process = (term, stream) => {
 
     requests.push(req);
 };
-exports.execute = (key) => {
+exports.execute = ({key}) => {
     return new Promise((resolve, reject) => {
         if (/^https?\:\/\//.test(key)) {
             shell.openExternal(key);
@@ -69,4 +69,4 @@ exports.execute = (key) => {
     });
 };
 
-exports.prefix = 'w';
+exports.keyword = 'w';
