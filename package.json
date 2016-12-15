@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/groundcontrolplugins/wikipedia.git"
+    "url": "git+https://github.com/gc-plugins/wikipedia.git"
   },
   "author": "Ian Renyard",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/groundcontrolplugins/wikipedia/issues"
+    "url": "https://github.com/gc-plugins/wikipedia/issues"
   },
-  "homepage": "https://github.com/groundcontrolplugins/wikipedia#readme",
+  "homepage": "https://github.com/gc-plugins/wikipedia#readme",
   "dependencies": {
     "request": "^2.79.0"
   }
